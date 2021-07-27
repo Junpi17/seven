@@ -6,9 +6,9 @@
  </head>
     <?php 
      // DB接続設定
-    $dsn = 'mysql:dbname=tb230024db;host=localhost';
-    $user = 'tb-230024';
-    $password = '7zv2hXFuRp';
+    $dsn = 'mysql:dbname=******;host=localhost';
+    $user = '*****';
+    $password = '*****';
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
     //テーブル作成
     $sql = "CREATE TABLE IF NOT EXISTS mission5"
